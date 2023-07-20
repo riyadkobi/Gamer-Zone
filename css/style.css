@@ -421,43 +421,6 @@ body {
   font-size: 16px;
   font-weight: 500;
 }
-
-@media screen and (max-width: 1540px) {
-  .container {
-    max-width: 1200px;
-  }
-  .gamer_section .container {
-    flex-direction: column;
-    padding: 55px 0;
-  }
-  .gamer_section .gamer_content {
-    text-align: center;
-    padding: 0 20px;
-    margin-top: 24px;
-  }
-  .gamer_section .gamer_images {
-    width: 100%;
-  }
-  .careers_section .careers_container {
-    flex-direction: column;
-    padding: 50px 0;
-  }
-  .careers_section .careers_content {
-    margin: 0 200px;
-    padding: 50px 0;
-  }
-  .careers_img img {
-    width: 100%;
-  }
-  .footer .logo {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    padding-top: 70px;
-    margin-bottom: 50px;
-  }
-}
-
 @media screen and (max-width: 1340px) {
   .menubar .container {
     display: flex;
@@ -484,18 +447,7 @@ body {
   .banner-section .image-area .banner {
     width: 100%;
   }
-  .gamer_section .container {
-    flex-direction: column;
-    padding: 55px 0;
-  }
-  .gamer_section .gamer_content {
-    text-align: center;
-    padding: 0 20px;
-    margin-top: 24px;
-  }
-  .gamer_section .gamer_images {
-    width: 100%;
-  }
+
   .online_section {
     margin: 0 30px;
   }
@@ -509,17 +461,7 @@ body {
   .online_card .card {
     margin-top: 30px;
   }
-  .careers_section .careers_container {
-    flex-direction: column;
-    padding: 50px 0;
-  }
-  .careers_section .careers_content {
-    margin: 0 20px;
-    padding: 50px 0;
-  }
-  .careers_img img {
-    width: 100%;
-  }
+
   .play_section .container {
     flex-direction: column;
     padding: 40px 20px;
@@ -682,27 +624,3 @@ body {
     grid-template-columns: repeat(1, 1fr);
   }
 }
-
-/* Mobile First Design */
-
-/* 0-360 */
-
-/* min-width(360px) */
-
-/* min-width(768px) */
-
-/* min-width(1024px) */
-
-/* min-width(1440px) */
-
-/* ======================= */
-
-/* Desktop First Design */
-
-/* 1440- */
-
-/* max-width(1024px) */
-
-/* max-width(768px) */
-
-/* max-width(360px) */
